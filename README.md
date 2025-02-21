@@ -1,4 +1,4 @@
-# RightClickHVEC
+# RightClickHEVC
 Adding the provided batch script to the registry will allow you to override the encoding and deflate your videos often resulting in considerate size improvement.
 To do this apply following steps:
 1. Open Registtry and navigate to  "HKEY_CLASSES_ROOT\SystemFileAssociations\\.mp4\\"
