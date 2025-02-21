@@ -17,5 +17,3 @@ set "output=%folder%%filename%_Compressed%ext%"
 
 REM Run ffmpeg using the libx265 encoder
 ffmpeg -i "%input%" -c:v libx265 "%output%"
-
-pause
