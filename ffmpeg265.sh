@@ -24,3 +24,9 @@ for input in "$@"; do
     # Run FFmpeg with the libx265 encoder
     ffmpeg -i "$input" -c:v libx265 "$output"
 done
+
+#
+# Make it executable by running:
+#
+# chmod +x ffmpeg265.sh
+#
